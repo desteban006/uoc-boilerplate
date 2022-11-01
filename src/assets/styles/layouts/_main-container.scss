@@ -1,0 +1,36 @@
+/*Main container with has inside the two principal containers of the CV*/
+
+@mixin  caracteristicaBloque($ancho) {
+    display: flex;
+    width: $ancho;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    color: $main-cv;
+    ul {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+}
+
+.titprimario{
+    color: $titulos-cv;
+    line-height: 2rem;
+}
+.titsecundario{
+    color: $titulos-cv;
+}
+.li-principal {
+    list-style: none;
+    padding: 0;
+}

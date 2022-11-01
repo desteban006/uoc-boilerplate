@@ -24,7 +24,10 @@
  */
 
 @import "layouts/home";
-
+@import "layouts/main-container";
+@import "layouts/desc-container";
+@import "layouts/pers-container";
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
 /**
  * Do NOT include anything else in this file!
  */

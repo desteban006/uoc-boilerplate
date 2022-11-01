@@ -1,0 +1,13 @@
+/*Contenedor de la informacion personal*/
+.personal {
+    @include caracteristicaBloque(25%);
+    padding: 0 2em;
+}
+
+
+@media (max-width: 600px) {
+    .personal {
+        padding: 0 2em;
+        width: 100%;
+    }
+}

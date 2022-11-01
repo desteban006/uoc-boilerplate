@@ -1,0 +1,32 @@
+/*Container with the main description of de CV*/
+.descripcion {
+    @include caracteristicaBloque(calc(75% - 3px));
+    padding: 0 5em;
+    border-right: 3px solid $titulos-cv;
+    border-radius: 0.2em;
+    li {
+        padding: 3px 0;
+    }
+}
+
+.descripcion__bloque1 {
+    p {
+        text-align: justify;
+    }
+}
+
+.descripcion__empleo1 {
+    font-size: 1.3rem;
+}
+
+.descripcion__empleo2 {
+    font-size: 1.3rem;
+}
+
+@media (max-width: 600px) {
+    .descripcion {
+        padding: 0 2em;
+        width: 100%;
+        border-right:none;
+    }
+}
